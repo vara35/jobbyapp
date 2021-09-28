@@ -1,0 +1,83 @@
+.list-item {
+  list-style-type: none;
+  width: 100%;
+  background-color: #202020;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 16px;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 6%;
+  margin-right: 20px;
+}
+.title {
+  font-size: 16px;
+  line-height: 0;
+  color: #ffff;
+  font-weight: 600;
+}
+.rating {
+  font-size: 16px;
+  color: #ffff;
+  font-weight: 600;
+}
+.star {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+}
+.location {
+  color: #fff;
+  margin-right: 4px;
+}
+.location-name {
+  font-size: 11px;
+  color: #ffff;
+  font-weight: 500;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.location-main-container {
+  display: flex;
+  align-items: center;
+}
+.package {
+  font-size: 15px;
+  color: #ffff;
+  font-weight: 500;
+}
+.package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.hr-two {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.title-two {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 12px;
+  color: #fff;
+  font-family: roboto;
+  margin-top: 10px;
+  font-weight: 300;
+}

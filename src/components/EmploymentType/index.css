@@ -1,0 +1,11 @@
+.checkboxItem {
+  color: #ffff;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.list-employItem {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
