@@ -1,0 +1,28 @@
+.similar-list-item-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 25%;
+  min-height: 30vh;
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 15px;
+}
+.star-image-container {
+  display: flex;
+  align-items: center;
+}
+.description-similar {
+  font-size: 20px;
+  color: #ffff;
+  font-weight: 600;
+}
+.similar-description {
+  font-size: 11px;
+  color: #ffff;
+  font-family: roboto;
+  font-weight: 340;
+  line-height: 1.8;
+}

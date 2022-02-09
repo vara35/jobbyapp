@@ -1,4 +1,4 @@
-.list-item {
+.list-item-job {
   list-style-type: none;
   width: 100%;
   background-color: #202020;
@@ -46,6 +46,9 @@
   display: flex;
   align-items: center;
   margin-right: 16px;
+}
+.textDecoration {
+  text-decoration: none;
 }
 .location-main-container {
   display: flex;

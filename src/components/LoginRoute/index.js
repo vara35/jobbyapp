@@ -13,7 +13,6 @@ class LoginRoute extends Component {
   }
 
   showError = err => {
-    console.log(err)
     this.setState({showErrorMessage: true, error: err})
   }
 
@@ -30,7 +29,7 @@ class LoginRoute extends Component {
 
     if (response.ok === true) {
       const data = await response.json()
-      this.setToken(data)
+      this.setToken(data.jwt_token)
     } else {
       const data = await response.json()
       this.showError(data.error_msg)

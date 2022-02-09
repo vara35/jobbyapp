@@ -1,0 +1,22 @@
+.notfound-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.job-container {
+  height: 100vh;
+  background-color: black;
+}
+.notfound {
+  width: 40%;
+}
+.page {
+  font-size: 36px;
+  color: #ffff;
+}
+.not-found-page {
+  font-size: 10px;
+  color: #ffff;
+}

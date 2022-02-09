@@ -61,6 +61,7 @@ const jobsStatus = {
   success: 'SUCCESS',
   failure: 'FAILURE',
 }
+const addString = []
 
 class JobsRoute extends Component {
   state = {
@@ -147,7 +148,7 @@ class JobsRoute extends Component {
     const {profileData} = this.state
 
     return (
-      <div className="profile-container">
+      <div className="profile-container-first">
         <img
           src={profileData.profileImageUrl}
           alt="profile"
@@ -160,7 +161,7 @@ class JobsRoute extends Component {
   }
 
   profileInprogress = () => (
-    <div className="loader-container" testid="loader">
+    <div className="loader-container-first" testid="loader">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   )
@@ -235,7 +236,7 @@ class JobsRoute extends Component {
       />
       <h1 className="oops">Oops! Something Went Wrong</h1>
       <p className="weCannot">
-        We cannot seen to find the page your are looking for.
+        We cannot seem to find the page you are looking for
       </p>
       <button type="button" className="retry" onClick={this.initiateJobs}>
         Retry
@@ -259,9 +260,9 @@ class JobsRoute extends Component {
   }
 
   addEmployTypeFun = employmentTypeId => {
-    const {jobType} = this.state
-
-    this.setState({jobType: employmentTypeId}, this.getJobsDetails)
+    addString.push(employmentTypeId)
+    const joining = addString.join()
+    this.setState({jobType: joining}, this.getJobsDetails)
   }
 
   addSalaryTypeFun = salaryTypeId => {
@@ -273,7 +274,7 @@ class JobsRoute extends Component {
   }
 
   initiateSearch = () => {
-    this.getJobsDetails()
+    this.setState({jobType: '', packageRange: ''}, this.getJobsDetails)
   }
 
   render() {

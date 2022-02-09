@@ -34,3 +34,6 @@
   padding: 5px;
   width: 80px;
 }
+.route {
+  list-style-type: none;
+}

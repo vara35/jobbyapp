@@ -1,0 +1,164 @@
+.job-item-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.job-item-bottom-container {
+  align-self: center;
+  padding: 20px;
+  background-color: #202020;
+  margin: 50px;
+  border-radius: 15px;
+  max-width: 80%;
+}
+.list-item {
+  list-style-type: none;
+  width: 100%;
+  background-color: #202020;
+  border-radius: 5px;
+  padding: 0;
+  margin-top: 16px;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 6%;
+  margin-right: 20px;
+}
+.title {
+  font-size: 16px;
+  line-height: 0;
+  color: #ffff;
+  font-weight: 600;
+}
+.rating {
+  font-size: 16px;
+  color: #ffff;
+  font-weight: 600;
+}
+.star {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+}
+.location {
+  color: #fff;
+  margin-right: 4px;
+}
+.location-name {
+  font-size: 11px;
+  color: #ffff;
+  font-weight: 500;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.textDecoration {
+  text-decoration: none;
+}
+.location-main-container {
+  display: flex;
+  align-items: center;
+}
+.package {
+  font-size: 15px;
+  color: #ffff;
+  font-weight: 500;
+}
+.package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.hr-two {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.title-three {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.description-two {
+  font-size: 14px;
+  color: #fff;
+  font-family: roboto;
+  margin-top: 10px;
+  font-weight: 300;
+}
+.visit {
+  color: #6366f1;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.visit-icon-container {
+  display: flex;
+  align-items: center;
+}
+.visit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills-ul-container {
+  width: 100%;
+  padding: 0px;
+}
+.skills-ul-container-two {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+}
+.skills-heading-new {
+  font-size: 20px;
+  color: #ffff;
+  font-weight: 500;
+}
+.life-at-company-container {
+  display: flex;
+  flex-direction: column;
+}
+.life-image {
+  width: 26%;
+  border-radius: 6px;
+  margin-left: 20px;
+}
+.skills-main-container {
+  display: flex;
+}
+.similar-container {
+  width: 80%;
+  align-self: center;
+}
+.job-item-similar-container {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.similar-logo {
+  width: 25%;
+  margin-right: 16px;
+}
+.loader-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -13,7 +13,7 @@
   margin-right: 15px;
   width: 25%;
 }
-.profile-container {
+.profile-container-first {
   display: flex;
   flex-direction: column;
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
@@ -82,7 +82,7 @@
   font-size: 11px;
   font-family: roboto;
 }
-.loader-container {
+.loader-container-first {
   display: flex;
   flex-direction: column;
   justify-content: center;
